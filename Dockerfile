@@ -8,5 +8,5 @@ COPY . .
 RUN  python manage.py migrate 
 
 
-CMD ["python", "manage.py", "runserver","0.0.0.0:3000"]
-EXPOSE 3000 
+CMD ["python", "manage.py", "runserver","0.0.0.0:5000"]
+EXPOSE 5000
